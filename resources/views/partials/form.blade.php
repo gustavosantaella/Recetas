@@ -12,8 +12,8 @@
 			   <fieldset class="form-group">
 				<input type="text" name="titulo" value="" placeholder="Titulo de la receta" class="form-control">
 			</fieldset>
-			<fieldset class="form-group">
-				<label for="producto">Producto</label>
+			<fieldset class="form-group">				<label for="producto">Producto</label>
+
 
 				<input type="radio" value="1" name="subreceta" id="producto" value="">
 				<label for="sub">Sub-receta</label>
@@ -25,7 +25,7 @@
 			</fieldset>
 
 			<fieldset class="form-group">
-				<button type="button" class=" btn-sm btn-success font-weight-bold ml-4" id="more">A&ntilde;adir</button>
+				{{-- <button type="button" class=" btn-sm btn-success font-weight-bold ml-4" id="more">A&ntilde;adir</button> --}}
 				<div id="new">
 					
 				</div>
